@@ -1,7 +1,7 @@
 # Gh0stl0gg3r
 
-Is a Python 3 keylogger that uses a Gmail account with "allow less secure apps" enabled, made only for learning 
-purposes, based on Beelogger idea (and Icons, i been lazy to download others), all credits to his creator (Alisson Moretto).
+Is a Python 3 keylogger that uses a Sendgrid Api Key, made only for learning 
+purposes, based on Beelogger idea, all credits to his creator (Alisson Moretto).
 
 Disclaimer: I will not make responsible for illegal use!! 
 
@@ -17,29 +17,19 @@ How to do it:
 
 open a terminal and run this commands
 
-git clone https://github.com/gh0stc0d3/gh0stl0gg3r.git
+git clone https://github.com/L1nux0/gh0stl0gg3r.git
 
 cd gh0stl0gg3r
 
-cd install
-
-for the next commands you have to be root :
-
-(if you are not root type in terminal: sudo su)
-
-bash install.sh
-
-and clic next next next next.....
-
-if everything its ok:
-
-cd ..
-
 python3 gh0stl0gg3r.py
+
+Follow this Guide to make EXE files with Pyinstaller:
+
+https://blog.redteam.uy/post/9/
 
 ----------------------------------------------------------
 
-tested: in Kali, ubuntu 19.04
+tested: in Kali, Ubuntu 20.04
 
 executable tested on Windows 10 (Run as Administrator to gain persistence), Windows 7. 
 
@@ -50,4 +40,4 @@ To unifect run the file named "to_unifect.bat"
 ----------------------------------------------------------
 
 
-Contact or follow me on Twitter @gabri3lm3llo
+Contact or follow me on Twitter @L1nux0
